@@ -21,6 +21,8 @@
     echo $_GET['id'];
     ?>
     </h2>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ad atque est voluptatem iste, enim sequi temporibus accusantium fuga natus! Debitis, obcaecati. Officia inventore officiis atque modi fugiat quae eius.
+    <?php
+    echo file_get_contents("data/".$_GET['id'])
+    ?>
 </body>
 </html>
