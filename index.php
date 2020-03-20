@@ -10,10 +10,8 @@
     <ol>
         <li><a href="index.php?id=HTML">HTML</a></li>
         <li><a href="index.php?id=CSS">CSS</a></li>
-
         <li><a href="index.php?id=JAVASCRIPT">JAVASCRIPT</a></li>
-
-
+        <li><a href="index.php?id=PHP">PHP</a></li>
     </ol>
     <h2>
 
