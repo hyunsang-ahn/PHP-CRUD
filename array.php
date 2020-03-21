@@ -6,11 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Variable</h1>
-        
+    <h1>Array</h1>
     <?php
-    $a = 1;
-    echo $a+1;
+    $coworkers = array('hyunsang', 'hodoo', 'mandoo', );
+    echo $coworkers[2];
+    echo count($coworkers);
+    array_push($coworkers, 'jadoo');
+    var_dump($coworkers);
     ?>
 </body>
 </html>
